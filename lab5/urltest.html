@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>test</title>
+  <script>
+  var searchString = document.location.search;
+  var nvPairs = searchString.split("&");
+
+  for (i = 0 ; i < nvPairs.length; i++) {
+    var nvPair = nvPairs[i].split("=");
+    var name = nvPair[0];
+    var vlaue = nvPair[1];
+    console.log("argument name =" +name+"and value=" + value);
+  }
+  </script>
+</head>
+</body>
+</html>
